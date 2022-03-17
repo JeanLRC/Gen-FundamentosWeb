@@ -5,50 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <ul>
-      <li><a href="index.html"> Home</a></li>
-      <li><a href="contato.html"> Contato</a></li>
-    </ul>
+    <nav class="navbar">
+      <ul id="menu">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="contato.html"> Contato</a></li>
+      </ul>
+    </nav>
 
-    <h1>Sobre o Jean</h1>
+    <h1 class="center">Sobre o Jean</h1>
+    <div class="container">
+      <div>
+        <img
+          class="br-50 wh-300 p-30"
+          src="./assets/img/Jean.jpg"
+          alt="Foto do criador do conteúdo"
+          width="15%"
+          frameborder="3"
+        />
+      </div>
+      <div class="p-30">
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel,
+          nihil omnis unde assumenda quidem, iure, dicta adipisci obcaecati
+          officia mollitia placeat commodi vitae hic dolorem quibusdam beatae et
+          fuga repellat eaque eos dolorum! Obcaecati accusamus, sed deserunt
+          libero temporibus debitis, perspiciatis quod quae autem amet dolor,
+          nostrum omnis dolores. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloremque excepturi asperiores in laudantium ipsum
+          a officiis cumque eos animi quibusdam voluptates blanditiis quos
+          facilis, eligendi accusamus consequatur delectus repellendus.
+        </p>
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at,
+          molestiae quidem quae ipsa fugiat quibusdam repudiandae ad velit autem
+          non sit ut eum ipsam deleniti odit id amet similique. Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Accusantium dolorum nam
+          ea excepturi odit doloribus dignissimos, quo atque neque culpa
+          necessitatibus itaque, minima quam vitae quos reiciendis molestias
+          mollitia ratione?
+        </p>
+      </div>
+    </div>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel,
-      nihil omnis unde assumenda quidem, iure, dicta adipisci obcaecati officia
-      mollitia placeat commodi vitae hic dolorem quibusdam beatae et fuga
-      repellat eaque eos dolorum! Obcaecati accusamus, sed deserunt libero
-      temporibus debitis, perspiciatis quod quae autem amet dolor, nostrum omnis
-      dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Doloremque excepturi asperiores in laudantium ipsum a officiis cumque eos
-      animi quibusdam voluptates blanditiis quos facilis, eligendi accusamus
-      consequatur delectus repellendus. Odit.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, at,
-      molestiae quidem quae ipsa fugiat quibusdam repudiandae ad velit autem non
-      sit ut eum ipsam deleniti odit id amet similique. Lorem ipsum dolor sit
-      amet consectetur, adipisicing elit. Accusantium dolorum nam ea excepturi
-      odit doloribus dignissimos, quo atque neque culpa necessitatibus itaque,
-      minima quam vitae quos reiciendis molestias mollitia ratione?
-    </p>
-    <img
-      src="assets/img/Jean.jpg"
-      alt="Foto do criador do conteúdo"
-      width="15%"
-      frameborder="3"
-    />
-    <h2>Uma musica muito boa:</h2>
+    <h2 class="center">Uma musica muito boa:</h2>
+    <div class="container mb-50">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zzhTbjz0clE"
+        title="YouTube video player"
+        frameborder="3"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr />
+    <footer>
+      <div class="container">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img
+            class="tm-social p-30"
+            src="./assets/img/facebook.png"
+            alt="Logo do Facebook"
+        /></a>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/zzhTbjz0clE"
-      title="YouTube video player"
-      frameborder="3"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><img
+            class="tm-social p-30"
+            src="./assets/img/linkedin.png"
+            alt="Logo do LinkedIn"
+        /></a>
+
+        <a href="https://www.instagram.com" target="_blank"
+          ><img
+            class="tm-social p-30"
+            src="./assets/img/instagram.png"
+            alt="Logo do Instagram"
+        /></a>
+      </div>
+      <p class="center">Todos os direitos reservados: Jean Lucas &copy;</p>
+    </footer>
   </body>
 </html>
